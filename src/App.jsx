@@ -41,7 +41,7 @@ const App = () => {
             required
           />
         </div>
-        <button>Submit</button>
+        <button type="Submit">Submit</button>
       </form>
       {isDisplay && fullName.firstName && fullName.lastName && (
         <p>
